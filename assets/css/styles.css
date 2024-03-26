@@ -4,7 +4,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: 0;
+	box-sizing: border-box;
 }
 
 :root {
@@ -17,11 +17,14 @@ html {
 	font-size: 62.5%;
 	font-family: 'Poppins', sans-serif;
 }
+.navbar-nav .nav-link {
+	font-size: 20px; /* Cambia este valor según tu preferencia */
+}
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+.navbar img {
+	height: 70px; 
+    width: auto; 
+
 }
 
 /* ********************************** */
@@ -327,7 +330,7 @@ html {
 
 .category-Fruta {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/helado de frutas.jpg');
+	  url(../img/helado\ de\ frutas.jpg);
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -335,7 +338,7 @@ html {
 
 .category-yogurt-y-frutas {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/helado de yogurt.jpg');
+	url(../img/helado\ de\ yogurt.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -343,7 +346,7 @@ html {
 
 .category-cereza-chocolate {
 	background-image: linear-gradient(#00000080, #00000080),
-		url('img/con chocolate.jpg');
+	  url(../img/cereza\ con\ chocolate.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
