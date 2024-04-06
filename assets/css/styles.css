@@ -262,8 +262,8 @@ html {
 }
 
 .carousel {
-	max-width: 800px; /* Ancho máximo deseado del carousel */
-	margin: auto; /* Centrar el carousel */
+	max-width: 750px; /* Ancho máximo deseado del carousel */
+	margin: 4rem auto; /* Centrar el carousel */
 }
 
 .carousel-item img {
@@ -581,9 +581,7 @@ html {
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(2, 30rem);
 	gap: 1.5rem;
-	margin-bottom: 3rem;
 }
 
 .gallery img {
@@ -917,10 +915,6 @@ html {
 		grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
 	}
 
-	.gallery {
-		grid-template-rows: repeat(2, 15rem);
-	}
-
 	.container-blogs {
 		overflow: hidden;
 		grid-template-columns: 1fr 1fr;
@@ -995,7 +989,7 @@ html {
 	}
 
 	.gallery {
-		grid-template-rows: repeat(2, 20rem);
+		grid-template-rows: 20rem;
 	}
 
 
